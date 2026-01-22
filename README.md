@@ -257,3 +257,27 @@ for demonstrating **responsible AI usage in digital media verification**.
 
 ---
 
+🏃‍♂️ HOW TO RUN THIS PROJECT (AFTER CLONE)
+1️⃣ Clone repo
+git clone https://github.com/USERNAME/AI-Deepfake-Verification-Tool.git
+cd AI-Deepfake-Verification-Tool
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Create .env file
+DATABASE_URL=postgresql://postgres:<password>@localhost:5432/deepfake_verify
+PORT=5000
+
+4️⃣ Setup database
+npm run db:push
+
+5️⃣ Start app
+npm run dev
+
+6️⃣ Open browser
+
+Frontend → http://localhost:5173
+
+Backend → http://localhost:5000
+
